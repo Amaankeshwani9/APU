@@ -1,0 +1,47 @@
+body {
+
+	margin:0;
+	background-size : cover;
+	background-repeat : no-repeat;
+        background:url('ph.jpg');
+	text-align : center;
+	color : #ffffff;
+	background-size : 100%;
+	
+   	/* Create the parallax scrolling effect */
+   	background-attachment: fixed;
+ 	background-position: center;
+    	background-repeat: no-repeat;
+   	background-size: cover;
+	font-family : Arial,Helvetica,sans-serif;
+	font-size : 15px;
+	line-height : 1.5;
+	color : white;
+	
+
+}
+#showcase
+{
+	min-height : 100%;
+	
+	
+}
+div.polaroid
+{
+	color:black;
+	    margin: 5px;
+	    margin-top : 20px;
+	    margin-left : 27px;
+	    border: 1px solid #ccc;
+	    width : 100%;
+	    float: left;
+	    height:300px; 
+	    width: 300px;
+	    transition : .2s;
+	    background : white; 
+}
+div.polaroid:hover
+{
+	box-shadow : 10px 15px 20px black;
+	transform  :scale(1.1);
+}
